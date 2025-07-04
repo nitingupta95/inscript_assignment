@@ -1,7 +1,7 @@
-import { ChevronRight,Search, Bell, User } from 'react-feather';
-import { Loader2 } from 'lucide-react'; 
-import IconBox from './iconbox';
 import React from "react"
+import { ChevronRight,Search, Bell } from 'react-feather';
+import IconBox from './iconbox';
+
 
 const Navbar = () => {
   const handleCLick=()=>{

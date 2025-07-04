@@ -1,5 +1,5 @@
 // SpreadsheetTable.tsx
-import React, { useState } from "react";
+import React from "react";
 import { Link2 } from "lucide-react";
 import {RefreshCcw} from "lucide-react"
 import { Plus } from "lucide-react";
@@ -309,8 +309,7 @@ const getPriorityStyle = (priority: string) => {
   }
 };
 
-export default function TableComponent() {
-  const [showOverlay, setShowOverlay] = useState(false);
+export default function TableComponent() { 
   return (
     <div className="w-full h-[872px] flex gap-[1px]">
       <table className=" border-collapse  text-sm border-separate border-spacing-0  ">
@@ -429,7 +428,7 @@ export default function TableComponent() {
 
                 <div
                   className="w-5 h-5 rounded-[4px] flex items-center justify-center "
-                  onClick={() => setShowOverlay(true)}
+                   
                 >
                   <ChevronDown
                     className="w-[12px] h-[12px] text-[#AFAFAF]"
@@ -457,7 +456,7 @@ export default function TableComponent() {
                 <div>
                   <div
                   className="w-5 h-5 rounded-[4px] flex items-center justify-center "
-                  onClick={() => setShowOverlay(true)}
+                  
                 >
                   <ChevronDown
                     className="w-[12px] h-[12px] text-[#AFAFAF]"
@@ -480,7 +479,7 @@ export default function TableComponent() {
                 </div>
                 <div
                   className="w-5 h-5 rounded-[4px] flex items-center justify-center "
-                  onClick={() => setShowOverlay(true)}
+                   
                 >
                   <ChevronDown
                     className="w-[12px] h-[12px] text-[#AFAFAF]"
@@ -502,7 +501,7 @@ export default function TableComponent() {
                 </div>
                 <div
                   className="w-5 h-5 rounded-[4px] flex items-center justify-center "
-                  onClick={() => setShowOverlay(true)}
+                   
                 >
                   <ChevronDown
                     className="w-[12px] h-[12px] text-[#AFAFAF]"
@@ -524,7 +523,7 @@ export default function TableComponent() {
                 </div>
                 <div
                   className="w-5 h-5 rounded-[4px] flex items-center justify-center "
-                  onClick={() => setShowOverlay(true)}
+                  
                 >
                   <ChevronDown
                     className="w-[12px] h-[12px] text-[#AFAFAF]"
