@@ -1,9 +1,8 @@
+import React from "react";
 import Action from './components/Action'
 import Navbar from './components/Navbar' 
 import TableComponent from '../src/components/BaiscTable' 
-import React from "react";
-import Footer from './components/Footer';
-import SpreadsheetTable from "./components/tanstack table"
+import Footer from './components/Footer'; 
 
 function App() { 
 
@@ -12,8 +11,7 @@ function App() {
       <Navbar/>
       <Action/>
       <TableComponent  /> 
-      <Footer/>
-          {/* <SpreadsheetTable/> */}
+      <Footer/> 
     </div>
    )
  }
